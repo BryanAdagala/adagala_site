@@ -27,10 +27,12 @@ header{
 }
 header h1{
 	font-size: 72.4px;
+	font-weight: normal;
 }
 header h3{
 	color: #4f9dc1;
 	font-size: 24.5px;
+	font-weight: normal;
 }
 
 
@@ -61,4 +63,55 @@ nav{
 }
 .feature-list{
 	list-style: none;
+	background-image: url('../images/feature-bg.jpg');
+	height: 480px;
+
+}
+.feature-list li{
+	width: 33.333%;
+	float: none;
+	box-sizing: border-box;
+	border-top: 1px solid white;
+	width: 761px;
+	height: 170px;
+}
+.feature-list li:first-child{
+	border-top: 0;
+}
+.feature-list li a{
+	text-decoration: none;
+	text-align: left;
+}
+.feature-title{
+	color: white;
+	font-size: 32px;
+	font-weight: normal;
+	text-align: left;
+	float:right;
+	margin: 0;
+	padding: 57px 290px 0 0;
+}
+.feature-icon{
+	float: left;
+	padding: 57px 0 0 144px;
+}
+
+
+/*--------------- CLEARFIX ---------------*/
+.clearfix: after{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix{
+	display: inline-block;
+}
+html[xmlns] .clearfix{
+	display: block;
+}
+#html .clearfix{
+	height: 1%;
 }
