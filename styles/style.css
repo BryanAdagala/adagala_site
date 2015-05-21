@@ -1,3 +1,5 @@
+/*----------- BLUE COLOR: #4f9dc1 ------------*/
+
 html, body, ul, li, h1, h2, h3, h4, h5, h6, img, p{
 	color: #000;
 	font-family: Arial, Helvetica, sans-serif;
@@ -7,13 +9,56 @@ html, body, ul, li, h1, h2, h3, h4, h5, h6, img, p{
 
 body{
 	font-size: 14px;
+	letter-spacing: 0.2px;
 }
 h1, h2, h3, h4, h5, h6{
 	/*font-family: 'Bebas Neue', sans-serif;*/
 	font-family: 'Roboto', sans-serif;
 }
+.container{
+	max-width: 762px;
+	margin: 0 auto;
+}
+
+/*---------- HEADER ----------*/
+header{
+	padding-top: 62px;
+	text-align: center;
+}
+header h1{
+	font-size: 72.4px;
+}
+header h3{
+	color: #4f9dc1;
+	font-size: 24.5px;
+}
+
 
 /*---------- NAVIGATION ----------*/
 nav{
 	font-family: 'Roboto', sans-serif;
+	border-left: 174px;
+}
+.nav-list{
+	list-style: none;
+	padding-top: 65px;
+}
+.nav-list li{
+	float: left;
+	margin: 0 0 0 90px;
+}
+.nav-list li a{
+	color: #000;
+	text-decoration: none;
+}
+.nav-list li a:hover{
+	color: #4f9dc1;
+}
+
+/*----------- FEATURE ----------*/
+.feature {
+	padding-top: 62px;
+}
+.feature-list{
+	list-style: none;
 }
